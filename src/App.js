@@ -12,7 +12,7 @@ function App() {
   useEffect(() => {
     const timeoutId = setTimeout(() => {
       setShowVideo(false);
-    }, 3000);
+    }, 4000);
 
     setVideoLoadTimeout(timeoutId);
 
