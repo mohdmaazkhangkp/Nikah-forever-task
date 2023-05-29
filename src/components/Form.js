@@ -2,7 +2,7 @@ import React from 'react'
 
 const Form = () => {
   return (
-    <div className='bg-white rounded-2xl opacity-100'>
+    <div className='bg-white max-w-md rounded-2xl '>
       <form className='flex flex-col p-7'>
         <h5 className='text-sm font-bold  text-red-800 ml-3'>EMAIL ADDRESS:</h5>
       <input type="email" className='bg-gray-200 outline-none text-base font-bold py-2 px-3 mb-4 text-gray-600 rounded-full'/>
